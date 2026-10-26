@@ -1,6 +1,6 @@
 module.exports = {
-  host: '127.0.0.1',
-  port: 56788,
+  host: 'prismsmp.net',
+  port: 25565,
   username: '_yerxzglazercpvp',
   auth: 'microsoft',
   version: '1.21.11',
@@ -21,15 +21,15 @@ module.exports = {
 
   // Mob defense is automatic. Player PvP is opt-in per explicit owner request/target.
   attackHostileMobs: true,
-  playerPvPEnabled: false,
+  playerPvPEnabled: true,
   engageRange: 12,
   meleeRange: 3.2,
   allowMeleePvP: true,
   allowMacePvP: true,
-  allowCrystalPvP: false,
-  allowAnchorPvP: false,
-  enableCrystalExplosives: false,
-  enableAnchorExplosives: false,
+  allowCrystalPvP: true,
+  allowAnchorPvP: true,
+  enableCrystalExplosives: true,
+  enableAnchorExplosives: true,
 
   // Optional free local Ollama planner. Leave enabled; if Ollama is not installed/running,
   // KRYPT uses the built-in intent parser. No paid API or cloud key is required.
