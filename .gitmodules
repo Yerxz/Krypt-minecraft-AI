@@ -1,0 +1,3 @@
+[submodule "voice/mineflayer-simple-voice-chat"]
+	path = voice/mineflayer-simple-voice-chat
+	url = https://github.com/forester302/mineflayer-simple-voice-chat.git
